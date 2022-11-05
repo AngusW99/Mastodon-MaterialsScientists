@@ -1,12 +1,12 @@
-# Mastodon Sociologists
+# Mastodon Materials Scientists
 
-This repository provides a most simple web app that helps to bulk follow sociologists on the FOSS microblogging service Mastodon. In it you can create a csv-file that can be uploaded in any accounts mastodon seetings, in order to follow a list of accounts at once.
+This repository provides a most simple web app that helps to bulk follow materials scientists on the FOSS microblogging service Mastodon. In it you can create a csv-file that can be uploaded in any accounts mastodon seetings, in order to follow a list of accounts at once.
 
 ## Can I use this for my discipline/peer group?
 
 > **Please make sure to only add account information into your csv file and webpage with the consent of the owner of the account!** Even though we are keeping minimal stored information, make sure everybody has agreed to be on your list. Keep in mind that if you delete a name from the file it will still be in the repository's history, so the best security is ensuring accounts with owners that do not consent never get added to a list. Scraping publicly accessible information for accounts to add to the csv file and webpage does not gather consent.
 
-Yes, basically you just have to fork the repro. There are two files that you will need to change. The Text in index.html and the accounts that are stored in `resources/users.csv`. Please keep the name of this file (or change it in `assets/js/app.js`, too).
+Yes, basically you just have to fork the original repro. There are two files that you will need to change. The Text in index.html and the accounts that are stored in `resources/users.csv`. Please keep the name of this file (or change it in `assets/js/app.js`, too).
 
 For your convenience, we also have included a cleaned template for your index.html. It is named `adapt-index.html`. In it, all places where you ought to fill in some specific text for your purpose start with `XXX`, in order to make them easily identifiable. Fill in the Text, rename the file to `index.html`. You can now discard of the original `index.html`. You do not need to write any html formatting, however, if you want to make multiple pararaphs, two tags could come in handy: the (`<p></p>` tag)[https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p] and the (`<a href=""></a>` tag)[https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a]. That’s it.
 
